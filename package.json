@@ -1,0 +1,27 @@
+{
+  "name": "chat-node-socket",
+  "version": "1.0.0",
+  "description": "Node and Socket Chat",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nsogliano/chat-node-socket.git"
+  },
+  "author": "Nicolás Sogliano (nsoglianosuarez@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nsogliano/chat-node-socket/issues"
+  },
+  "homepage": "https://github.com/nsogliano/chat-node-socket#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^3.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
